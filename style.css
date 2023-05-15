@@ -1,0 +1,225 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "header header"
+      "nav content"
+      "footer footer";
+      background-color:white;
+      color:black;
+      width: 100%;
+  }
+
+  .header {
+    grid-area: header;
+    height: 15vh;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+    color:honeydew;
+    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474,
+    -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d;
+}
+
+  .header a {
+    text-align: center;
+    padding: 2.5rem;
+    text-shadow:none;
+    font-weight: bold;
+  }
+
+  .header:hover{
+    box-shadow:0 0 25px 5px rgb(68,69,70)
+  }
+
+  .nav {
+    grid-area: nav;
+    height: 173.5vh;
+    width:20vw;
+    text-align:justify;
+    line-height:1.5rem;
+    background-color: cadetblue;
+    padding: 10px;
+    margin-top:1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .nav:hover{
+    box-shadow:0 0 25px 5px rgb(68,69,70)
+  }
+
+  .nav h1 {
+    text-align: center;
+    color:darkgreen;
+    background-color: white;
+  }
+
+  .nav h3 {
+    text-align: center;
+    background-color: white;
+  }
+
+  .nav h4 {
+    text-align: center;
+    background-color: bisque;
+  }
+
+  .content {
+    grid-area: content;
+    height: 170vh;
+    width: 80vw;
+    padding: 8px;
+    margin: 10px;
+  }
+
+  .main-container-text-left {
+    width: 50%;
+    float:left;
+    line-height: 2rem;
+    background-color:seashell;
+    margin-top: 0.5rem;
+  }
+
+  .main-container-text-left h1 {
+    text-align: center;
+    background-color:seashell;
+    font-size:20px;
+  }
+
+  .main-container-image-right {
+    width: 50%;
+    float: right;
+  }
+
+  .main-container-image-right:hover{
+    box-shadow:0 0 25px 5px rgb(68,69,70)
+  }
+
+  .second-container-text-left h1 {
+    text-align: center;
+    font-size:20px;
+    line-height: 0.5rem;
+  }
+
+  .second-container-text-left h2 {
+    text-align: center;
+    font-size:18px;
+  }
+
+  .second-container-text-left {
+    width: 50%;
+    float: left;
+    text-align:left;
+    line-height: 2rem;
+    background-color: white;
+    padding-top: 25px;
+    
+  }
+
+  .second-container-image-right {
+    width: 50%;
+    float: right;
+  }
+
+  .second-container-image-right:hover{
+    box-shadow:0 0 25px 5px rgb(68,69,70)
+  }
+
+  .third-container-text-left {
+    width: 50%;
+    float: left;
+    text-align:left;
+    line-height: 1.8rem;
+    background-color:seashell;
+    margin-top: 3rem;
+  } 
+
+  .third-container-text-left h1 {
+    text-align: center;
+    font-size:20px;
+    line-height: 0.5rem;
+  }
+
+  .third-container-text-left h2 {
+    text-align: center;
+    font-size:18px;
+  }
+
+  .third-container-image-right {
+    width: 50%;
+    float: right;
+  }
+
+  .third-container-image-right:hover{
+    box-shadow:0 0 25px 5px rgb(68,69,70)
+  }
+
+  .forth-container-text-left {
+    width: 50%;
+    float: left;
+    text-align:left;
+    line-height: 1.8rem;
+    background-color: white;
+    margin-top: 5rem;
+  } 
+
+  .forth-container-text-left h1 {
+    text-align: center;
+    font-size:20px;
+    line-height: 0.5rem;
+  }
+
+  .forth-container-text-left h2 {
+    text-align: center;
+    font-size:18px;
+  }
+
+  .forth-container-image-right {
+    width: 50%;
+    float: right;
+    margin-top: 2.5rem;
+  }
+
+  .forth-container-image-right:hover{
+    box-shadow:0 0 25px 5px rgb(68,69,70)
+  }
+
+  .fifth-container-text-left {
+    width: 50%;
+    float: left;
+    text-align:left;
+    line-height: 1.8rem;
+    background-color:seashell;
+    margin-top: 5rem;
+  } 
+
+  .fifth-container-text-left h1 {
+    text-align: center;
+    font-size:20px;
+    line-height: 0.5rem;
+  }
+
+  .fifth-container-text-left h2 {
+    text-align: center;
+    font-size:18px;
+  }
+
+  .fifth-container-image-right {
+    width: 50%;
+    float: right;
+    margin-top: 1.7rem;
+  }
+
+  .fifth-container-image-right:hover{
+    box-shadow:0 0 25px 5px rgb(68,69,70)
+  }
+
+  .footer {
+    grid-area: footer;
+    height: 10vh;
+    background-color: cadetblue;
+    color:white;
+    text-align:center;
+    padding-top: 2rem;
+  }
