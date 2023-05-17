@@ -35,7 +35,7 @@
 
   .nav {
     grid-area: nav;
-    height: 173.5vh;
+    height: 184.5vh;
     width:20vw;
     text-align:justify;
     line-height:1.5rem;
@@ -217,9 +217,10 @@
 
   .footer {
     grid-area: footer;
-    height: 10vh;
+    height: 8vh;
     background-color: cadetblue;
     color:white;
     text-align:center;
-    padding-top: 2rem;
+    padding-bottom: 1rem;
+ 
   }
